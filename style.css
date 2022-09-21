@@ -53,6 +53,8 @@ main {
   margin-left: -24px;
 }
 
+
+/* Tablet */
 @media (min-width: 768px) {
 
   .intro-chunk {
@@ -61,6 +63,22 @@ main {
 
   .indented-heading {
     display: inline-block;
+  }
+
+}
+
+
+/* Desktop */
+@media (min-width: 1024px) {
+
+  .max-width-wrapper {
+    max-width: 640px;
+    margin-inline: auto;
+  }
+
+  .indented-heading {
+    padding-left: 32px;
+    margin-left: -32px;
   }
 
 }
